@@ -6,7 +6,7 @@ public class AddSomeNumbers {
 
     public static void main(String[] args) {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
-        int result = addSomeNumbers.addTwoNumbers(40,20);
-        System.out.println(result);
+        int sum = addSomeNumbers.addTwoNumbers(40,20);
+        System.out.println(sum);
     }
 }
