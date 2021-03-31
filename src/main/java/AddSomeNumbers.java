@@ -7,6 +7,7 @@ public class AddSomeNumbers {
     public static void main(String[] args) {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
         int result = addSomeNumbers.addTwoNumbers(12,20);
-        System.out.println(result);
+        int newNumbers = addSomeNumbers.addTwoNumbers(20,30);
+        System.out.println(newNumbers);
     }
 }
