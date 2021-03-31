@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class AddSomeNumbers {
 
     public int addTwoNumbers(int num1, int num2){
@@ -6,7 +8,7 @@ public class AddSomeNumbers {
 
     public static void main(String[] args) {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
-        int result = addSomeNumbers.addTwoNumbers(40,20);
-        System.out.println(result);
+        int sum = addSomeNumbers.addTwoNumbers(404,203);
+        System.out.println(sum);
     }
 }
