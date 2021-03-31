@@ -8,7 +8,7 @@ public class AddSomeNumbers {
 
     public static void main(String[] args) {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
-        int sum = addSomeNumbers.addTwoNumbers(404,203);
+        int sum = addSomeNumbers.addTwoNumbers(404,204);
         System.out.println(sum);
     }
 }
