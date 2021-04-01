@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class AddSomeNumbers {
 
     public int addTwoNumbers(int num1, int num2){
