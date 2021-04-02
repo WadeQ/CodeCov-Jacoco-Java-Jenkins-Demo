@@ -47,6 +47,4 @@ dependencies {
     implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
 }
 
-codeCoverageReport.dependsOn {
-    subprojects*.test
-}
+check.dependsOn jacocoTestReport
