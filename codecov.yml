@@ -1,4 +1,10 @@
-fixes:
-  - "/home/runner/work/CodeCov-Jacoco-Java-Jenkins-Demo/CodeCov-Jacoco-Java-Jenkins-Demo/::" # Correct paths
+{
+  "fixes": [
+      "/home/runner/work/CodeCov-Jacoco-Java-Jenkins-Demo/CodeCov-Jacoco-Java-Jenkins-Demo>/::"
+  ],
+  "codecov": {
+    "disable_default_path_fixes": true
+  }
+}
 
 
