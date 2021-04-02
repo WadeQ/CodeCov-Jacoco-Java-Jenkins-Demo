@@ -1,11 +1,35 @@
 language: java
 jdk:
-  - oraclejdk11
-before_script:
+  - openjdk11
+
+before_cache:
+  - rm -rf $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  timeout: 3600
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+env:
+  - IDEA_VERSION=LATEST-EAP-SNAPSHOT
+  - IDEA_VERSION=2020.3
+
+before_install:
   - chmod +x gradlew
-script:
-  - ./gradlew check
-  - ./gradlew codeCoverageReport
+  - pip install --user codecov
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
+
+deploy:
+  provider: releases
+  api_key: ${GIT_KEY}
+  cleanup: false
+  file_glob: true
+  file: "build/distributions/logstash-intellij-plugin-*.zip"
+  on:
+    tags: true
+    condition: "$TRAVIS_TAG =~ ^releasebuild_[0-9]+.*$"
+
+after_deploy:
+  - ./gradlew publishPlugin
