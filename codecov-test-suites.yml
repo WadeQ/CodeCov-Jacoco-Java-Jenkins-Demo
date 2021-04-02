@@ -1,5 +1,4 @@
 name: Run Test Suites
-
 on: [push]
 
 jobs:
