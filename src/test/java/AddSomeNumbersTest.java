@@ -7,7 +7,7 @@ class AddSomeNumbersTest {
     @Test
     void addTwoNumbers() {
         AddSomeNumbers addSomeNumbers = new AddSomeNumbers();
-        int result = addSomeNumbers.addTwoNumbers(404, 204);
-        assertEquals(608, result);
+        int result = addSomeNumbers.addTwoNumbers(400, 200);
+        assertEquals(600, result);
     }
 }
