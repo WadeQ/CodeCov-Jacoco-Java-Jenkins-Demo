@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo.svg?branch=main)](https://travis-ci.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo)   
-
 [![codecov](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/branch/master/graph/badge.svg?token=BK23bAfxqE)](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo)
 
 # CodeCov-Jacoco-Java-Jenkins-Demo
