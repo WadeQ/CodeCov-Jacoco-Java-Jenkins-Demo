@@ -1,12 +1,10 @@
 language: java
 jdk:
-  - oraclejdk11
+  - oraclejdk8
 before_script:
   - chmod +x gradlew
 script:
   - ./gradlew check
   - ./gradlew codeCoverageReport
-
 after_success:
-  - echo 'Connect to CodeCov'
-  - bash my_script.sh
+  - bash <(curl -s https://codecov.io/bash) -f build/reports/jacoco/codeCoverageReport/codeCoverageReport.xml
