@@ -7,4 +7,4 @@ script:
   - ./gradlew check
   - ./gradlew codeCoverageReport
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -f build/reports/jacoco/codeCoverageReport/codeCoverageReport.xml
+  - bash <(curl -s https://codecov.io/bash)
