@@ -17,7 +17,9 @@ allprojects {
 
 subprojects {
     dependencies {
+
     }
+
     test.useTestNG()
 }
 
@@ -45,4 +47,6 @@ dependencies {
     implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
 }
 
-check.dependsOn jacocoTestReport
+codeCoverageReport.dependsOn {
+    subprojects*.test
+}
