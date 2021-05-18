@@ -1,4 +1,5 @@
-[![Java CI with Gradle](https://github.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/actions/workflows/gradle.yml/badge.svg)](https://github.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/actions/workflows/gradle.yml)[codecov](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/branch/master/graph/badge.svg?token=BK23bAfxqE)](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo)
+[![Java CI with Gradle](https://github.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/actions/workflows/gradle.yml/badge.svg)](https://github.com/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/actions/workflows/gradle.yml)[!
+[codecov](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo/branch/master/graph/badge.svg?token=BK23bAfxqE)](https://codecov.io/gh/WadeQ/CodeCov-Jacoco-Java-Jenkins-Demo)
 
 
 # CodeCov-Jacoco-Java-Jenkins-Demo
